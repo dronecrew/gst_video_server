@@ -53,7 +53,7 @@ catkin_package(
 #  INCLUDE_DIRS include
   LIBRARIES gstvideoserver
   CATKIN_DEPENDS nodelet image_transport roscpp sensor_msgs std_msgs
-  DEPENDS libgstreamer1.0-dev
+  DEPENDS gstreamer
 )
 
 ###########
